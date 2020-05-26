@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/superslides.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -11,13 +12,27 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
     <title>Oliver Castro Teran</title>
   </head>
   <body>
-    test
+    <div id="slides">
+      <div class="overlay"></div>
 
+      <div class="slides-container">
+        <img src="./img/slide-1.jpg" alt="slide-img" />
+        <img src="./img/slide-2.jpg" alt="slide-img" />
+        <img src="./img/slide-3.jpg" alt="slide-img" />
+      </div>
+
+      <nav class="slides-navigation">
+        <a href="#" class="next"> </a>
+        <a href="#" class="prev"> </a>
+      </nav>
+    </div>
+
+    <script src="./js/jquery.superslides.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -28,5 +43,6 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
