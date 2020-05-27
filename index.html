@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/superslides.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -39,13 +40,13 @@
       </nav>
     </div>
 
-    <div id="about" class="section">
+    <div id="about" class="about section">
       <div class="container">
         <div class="row">
           <div class="col-md-5">
             <img class="about-img" src="./img/oli.jpg" alt="me" />
           </div>
-          <div class="col-md-7">
+          <div class="col-md-7 about__right">
             <h3>My name is Oliver Castro Teran</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -66,7 +67,85 @@
       </div>
     </div>
 
+    <div id="skills" class="skills section skillsSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>Technical Skills</h2>
+            <p>A representation of my proficiency in each skill</p>
+          </div>
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="95">
+                <span class="percent">95</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>HTML</h4>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="95">
+                <span class="percent">95</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>CSS</h4>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="90">
+                <span class="percent">90</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Sass</h4>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="90">
+                <span class="percent">90</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>JavaScript</h4>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="85">
+                <span class="percent">85</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>React</h4>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="80">
+                <span class="percent">80</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Firebase</h4>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="80">
+                <span class="percent">80</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>UX/UI design</h4>
+            </div>
+
+            <div class="skill">
+              <span class="chart" data-percent="90">
+                <span class="percent">90</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>Figma</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="./js/jquery.superslides.min.js"></script>
+    <script src="./js/jquery.easypiechart.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/typed.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
