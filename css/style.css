@@ -65,3 +65,11 @@ body {
 .title h2 {
   color: #cccccc;
 }
+
+.section {
+  padding: 100px 0;
+}
+
+.about-img {
+  max-width: 100%;
+}
