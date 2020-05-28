@@ -90,7 +90,6 @@ body {
   color: #fff;
   background-color: #3a127a;
   text-align: center;
-  margin-left: 10px;
 }
 
 .skills h2 {
@@ -128,4 +127,58 @@ body {
 .text-center {
   text-align: center !important;
   margin-bottom: 2rem;
+}
+
+.square-item {
+  margin-top: 30px;
+  position: relative;
+}
+
+.square-container {
+  position: relative;
+  padding: 50px 15px 35px;
+  text-align: center;
+  border: 2px solid #444;
+  border-top: none;
+}
+
+.square-container::before,
+.square-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 30%;
+  border-bottom: 2px solid #444;
+}
+
+.square-container::before {
+  right: 0;
+}
+
+.square-container::after {
+  left: 0;
+}
+
+.square-content h2 {
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #3a127a;
+}
+
+.square-content h3 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.square-icon {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 40%;
+  height: 60px;
+  font-size: 45px;
+  margin-left: -20%;
+  color: #444;
 }
