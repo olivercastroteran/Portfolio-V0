@@ -232,13 +232,19 @@ body {
   color: #fff;
 }
 
-.items {
-  list-style: none;
-}
-
 .items,
 .items-container {
   width: 1000px;
+  max-width: 100%;
+}
+
+.items {
+  list-style: none;
+  max-width: 100%;
+}
+
+.heading {
+  width: 100%;
 }
 
 .item img {
@@ -327,4 +333,31 @@ body {
 
 .copyright p {
   margin: 0;
+}
+
+#navigation {
+  background-color: #3a127a;
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
+}
+
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a,
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background-image: url(../img/icons/baseline_menu_white_18dp.png);
+  background-size: 100%;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
 }
